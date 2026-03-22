@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Despre noi</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">SimpleSite</div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/about" class="active">Despre noi</a>
+        <a href="/product">Product</a>
+        <a href="/contact">Contact Us</a>
+        <a href="/register" class="btn">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="page-section">
+      <h1>Despre noi</h1>
+      <p>Acesta este primul site scris în HTML, la cursul de IT Beginner, grupa ITB 03</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      &copy; <span id="year"></span> Site simplu. Toate drepturile rezervate.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
