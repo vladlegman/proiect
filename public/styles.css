@@ -1,0 +1,141 @@
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 ;
+}   
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Times New Roman', 'Monotype Corsiva', sans-serif;
+    line-height: 1.6;
+    background-color: #89CFF0;
+    color: #111827;
+}
+
+.container {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.site-header {
+    background-color: #7cf7c8;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.nav a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.96 rem ;
+    
+}
+
+
+.nav a:hover {
+    color: #d00101;
+}
+
+.nav a.active {
+    color: #d00101;
+    font-weight: bold;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #c7bc21;
+    color: #fff;
+    border: 1px solid #c7bc21;
+    border-radius: 999px;
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #c7bc21;
+    border-color: #c7bc21;
+}
+
+.btn:hover {
+    background-color: #1cb529;
+    border-color: #3d1cb5;
+}
+
+.hero {
+    background-color: #f0f4f8;
+    padding: 80px 0 60px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 16px;
+}
+.hero p {
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    color: #000000;
+}   
+
+.page-section {
+    padding: 50px 0;
+}
+
+.page-section-center {
+    text-align: center;
+}   
+
+.page-section h1 {
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+
+.page-section p {
+    font-size: 1.1rem;
+    color: #000000;
+}
+
+.form {
+    max-width: 400px;
+    margin: 24px;
+}
+
+.form-group {
+    margin-bottom: 8px;
+    font-weight: 500;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 0.95rem ;
+}
+
+.form-group input:focus {
+    border-color: #1cb529;
+    outline: none;
+    box-shadow: 0 0 0 1px #1cb529;  
+}
+.site-footer {
+    background-color: #7cf7c8;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding: 16px 0 24px;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #d00101;
+}
